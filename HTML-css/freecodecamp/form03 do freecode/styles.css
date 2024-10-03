@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@300;400&family=Shadows+Into+Light&display=swap');
+
+@media (max-width: 600px)   {
+    body {
+        width: auto;
+        height: auto;
+        margin:5px
+    }  
+}
+
+@media (max-width: 1200px){
+    body {
+        width: auto;
+        height: auto;
+    } 
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --cor1: rgb(96, 53, 27);
+    --cor2: rgb(225, 175, 147);
+    --cor3: #c0b1a3;
+    --cor4: rgb(128, 104, 87);
+}
+html{
+    margin: 0;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: linear-gradient(var(--cor1), var(--cor2)); 
+    font-family: "Roboto", sans-serif;
+}
+
+#title {
+    max-width:1000px;
+    background: var(--cor3);
+    margin: 0 0 0 220px;
+    font-size: 2em;
+    display: block;
+    justify-content: center;
+
+    
+}
+
+ h1 , h2, header {
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+    font-weight: 400; 
+    font-size: 2em;
+}
+
+aside{
+    width: 200px;
+    height: 100%;
+    top: 10px;
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+    background-color: var(--cor3);
+}
+ul {
+    width: auto;
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul li{
+    width: auto;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.border {
+    border-bottom: 1px solid #e5e5e5;
+}
+#navbar a{
+    list-style-type: none;
+    color: black;
+    padding: 2px;
+    margin: auto;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: rgb(229, 229, 229);
+}
+
+main {
+    width: auto;
+    max-width: 1000px;
+    margin: 0;
+    margin-left: 220px;
+    overflow: hidden;
+    justify-content: center;
+
+}
+.main-section {
+    background-color: var(--cor3);
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+div.receita1#receita1, div.receita2#receita2{
+    width: auto;
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid;
+    margin: 5px;
+}
+
+ #produto {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.image1 ,.image2 {
+    width: auto;
+    padding: 2px;
+}
+label{
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+
+#contact{
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+
+#submit {
+    border-radius: 1px black;
+}
+
+code {
+    background-color: rgb(229, 229, 229);
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+  }
+  fieldset {
+      width: auto;
+      
+    
+  }
+  
+  .form {
+      width: auto;
+      display: block;
+      text-align: center;
+      
+    
+  }
+ .cx-receitas {
+     width: auto;
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ 
