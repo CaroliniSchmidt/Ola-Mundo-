@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satisfaction Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">
+            <p id="description">Satisfaction Form
+        </h1>
+        </p>
+        <h2 id="description">Thank you for your feedback.<br> We are always adapting to the tastes of our employees!
+        </h2>
+    </header>
+    <main>
+        <form id="survey-form">
+            <fieldset class="cx-form">
+                <legend>Personal Information</legend>
+                <p><label id="name-label" for="firstname">First Name:</label> <input type="text" name="firstname" id="name" placeholder="Jane" autocomplete="on" required autofocus>
+                </p>
+                <p><label id="email-label" for="email">Email:</label> <input type="email" name="email" id="email" placeholder="Email" autocomplete="on" required>
+                </p>
+                <p><label id="number-label" for="number">Age:</label> <input type="number" name="number" id="number" placeholder="Age" min="18" max="120" required >
+                </p>
+                <p><input name="gender" type="radio" id="male" value="male" class="radio">
+                    <label for="gender"> Male </label>
+                </p>
+                <p><input name="gender" type="radio" id="female" value="female" class="radio">
+                    <label for="gender"> Female </label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset class="cx-form">
+                    <legend>Favorite Option</legend>
+                            <p><select name="coffee" id="dropdown" class="select">
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="mocca">Mocca</option>
+                    <option value="ice">Ice coffee</option>
+                    <option value="latte">Latte</option>
+                </select>
+                </p>
+                <p>
+                    <h3>Additional</h3>
+                <p><input name="add" type="checkbox" value="sugar">
+                    <label for="add"> Sugar </label>
+                </p>
+                <p><input name="add" type="checkbox" value="cinnamon">
+                    <label for="add"> Cinnamon </label>
+                </p>
+                <p><input name="add" type="checkbox" value="ice">
+                    <label for="add"> Cream </label>
+                </p>
+
+            </fieldset>
+            <br>
+            <br>
+            <h3>Describe better your taste or add any New Option: <h3>
+
+                <br>
+                <textarea name="message id="message" cols="30" rows="10" placeholder="Type your message here.."></textarea>
+                <hr>
+                <input id="submit" class="submit" type="submit">
+                </buttom>
+        </form>
+    </main>
+</body>
+
+</html>
